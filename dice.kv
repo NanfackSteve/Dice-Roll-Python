@@ -1,0 +1,48 @@
+#:kivy 1.0
+
+LayerRoot:
+
+<LayerRoot>:
+    orientation: "vertical"
+    img_src: dice_img
+    img_src2: dice_img_2
+   
+    BoxLayout:
+        Image:
+            id: dice_img
+            source: "dice_images/dice_3.png"
+            pos_hint: {'center_x':.5, 'center_y':.5}
+            size_hint: .3, .3
+
+        Image:
+            id: dice_img_2
+            source: "dice_images/dice_5.png"
+            pos_hint: {'center_x':.5, 'center_y':.5}
+            size_hint: .3, .3
+
+    FloatLayout:
+        size_hint_y: .25
+
+        Button:
+            text: 'Roll'
+            size_hint: None, None
+            width: "80dp"
+            height: "40dp"
+            pos_hint: {'center_x':.5, 'center_y':.5}
+            on_press: root.play()
+
+    BoxLayout:
+        height: "30dp"
+        size_hint_y: None
+
+        canvas:
+            Color:
+                rgba: (1, 1, 1, 1)
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+        Label:
+            text: "Powered by #sudo "
+            color: 0, 0, 0, 1
+            bold: True
