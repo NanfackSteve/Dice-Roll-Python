@@ -13,11 +13,10 @@ class LayerRoot(BoxLayout):
     def play(self):
     	"""Roll two dices """
     	
-        val1 = Dice(6).roll()
-        val2 = Dice(6).roll()
-        
-        self.img_src.source = "dice_images/dice_{}.png".format(val1)
-        self.img_src2.source = "dice_images/dice_{}.png".format(val2)
+    	val1 = Dice(6).roll()
+    	val2 = Dice(6).roll()
+    	self.img_src.source = "dice_images/dice_{}.png".format(val1)
+    	self.img_src2.source = "dice_images/dice_{}.png".format(val2)
 
 class Dice():
     """Define a Dice"""
