@@ -1,5 +1,5 @@
 #:kivy 1.0
-
+#:import randint random.randint
 LayerRoot:
 
 <LayerRoot>:
@@ -10,13 +10,13 @@ LayerRoot:
     BoxLayout:
         Image:
             id: dice_img
-            source: "dice_images/dice_3.png"
+            source: f"dice_images/dice_{randint(1,6)}.png"
             pos_hint: {'center_x':.5, 'center_y':.5}
             size_hint: .3, .3
 
         Image:
             id: dice_img_2
-            source: "dice_images/dice_5.png"
+            source: "dice_images/dice_{}.png".format(randint(1,6))
             pos_hint: {'center_x':.5, 'center_y':.5}
             size_hint: .3, .3
 
