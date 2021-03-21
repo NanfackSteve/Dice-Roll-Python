@@ -9,14 +9,15 @@ class LayerRoot(BoxLayout):
     
     img_src = ObjectProperty()
     img_src2 = ObjectProperty()
+    source_file = "dice_images/dice_{}.png"
 
     def play(self):
     	"""Roll two dices """
-    	
+
     	val1 = Dice(6).roll()
     	val2 = Dice(6).roll()
-    	self.img_src.source = "dice_images/dice_{}.png".format(val1)
-    	self.img_src2.source = "dice_images/dice_{}.png".format(val2)
+    	self.img_src.source = self.source_file.format(val1)
+    	self.img_src2.source = self.source_file.format(val2)
 
 class Dice():
     """Define a Dice"""
