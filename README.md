@@ -11,8 +11,8 @@ Dice Roll GUI app with Kivy (for Desktop and Android)
 1- Install Python3 <br>
 2- Install <em>kivy module</em> by running: <b>$pip3-install kivy</b> into Terminal<br>
 
-<h4>---------- RUN ----------<h4>
+<h4>---------- RUN ----------</h4>
 
 Execute <b><em>$python3 dice.py</em></b>
 
-<h4>---------- Build APK ----------<h4><br>
+<h4>---------- Build APK ----------</h4><br>
