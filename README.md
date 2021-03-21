@@ -1,10 +1,11 @@
 # Dice-Roll-Python
 Dice Roll GUI app with Kivy (for Desktop and Android)
 
-<img src="https://pin.it/72JcXYF" alt="Dice Roll App"/>
+<P>
+<img src="https://www.belloflostsouls.net/wp-content/uploads/2018/08/dice-red-horz.jpg" alt="Dice Roll App"/>
+</p>
 <br>
------------------- INSTALL --------------------------
-<br>
+<strong>------------------ INSTALL --------------------------</strong><br>
 to run this code, you've to install "kivy" module
 then in terminal run -> $python3 dice.py
 <br>
