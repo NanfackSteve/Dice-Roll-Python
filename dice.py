@@ -33,7 +33,6 @@ class DiceApp(App):
     """Dice App"""
 
     title = "Dice Roller App"
-    icone = "dice_images/diceIcon3.jpg"
     def build(self):
         return LayerRoot()
 
