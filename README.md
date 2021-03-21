@@ -1,7 +1,7 @@
 # Dice-Roll-Python
 Dice Roll GUI app with Kivy (for Desktop and Android)
 
-<img SRC="https://photos.app.goo.gl/ZFkm1U2uZWTmHNeK9">
+<img src="https://pin.it/72JcXYF" alt="Dice Roll App"/>
 <br>
 ------------------ INSTALL --------------------------
 <br>
