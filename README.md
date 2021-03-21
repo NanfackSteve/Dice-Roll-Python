@@ -1,5 +1,5 @@
 # Dice-Roll-Python
-Dice Roll GUI app with Kivy (for Desktop and Android)
+Dice Roll GUI app with Kivy<br>(for Desktop and Android)
 
 <P>
 <img src="https://www.belloflostsouls.net/wp-content/uploads/2018/08/dice-red-horz.jpg" alt="Dice Roll App"/>
